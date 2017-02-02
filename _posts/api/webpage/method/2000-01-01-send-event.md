@@ -13,7 +13,7 @@ The events are **not** synthetic [DOM events](http://www.w3.org/TR/DOM-Level-2-E
 
 ## Mouse events
 
-`sendEvent(mouseEventType[, mouseX, mouseY, button='left'])`
+`sendEvent(mouseEventType, [mouseX, mouseY, button='left'])`
 
 The first argument is the event type. Supported types are `'mouseup'`, `'mousedown'`, `'mousemove'`, `'doubleclick'` and `'click'`. The next two arguments are optional but represent the mouse position for the event.
 
